@@ -6,8 +6,9 @@ main{
     margin: 2%;
     padding: 1%;
 }
+
 section{
-    margin: 1%;
+    
     border-radius: 10px;
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     border-left: #063e8d solid 10px;
@@ -16,6 +17,5 @@ section{
 }
 #main2 {
     width: 100%;
-    margin: 2%;
-    padding: 1%;
+   
 }

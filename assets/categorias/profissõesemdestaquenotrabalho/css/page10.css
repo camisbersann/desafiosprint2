@@ -1,8 +1,13 @@
 body{
-
+background-color:#545b67;
 }
 #art1{
     display: flex;
     margin: 1%;
     border-radius: 10px;
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+}
+main {
+    border-radius: 10px;
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
 }

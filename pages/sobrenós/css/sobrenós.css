@@ -10,3 +10,25 @@ body {
     padding: 5px;
     margin: 2px;
 }
+.card1 {
+ display: flex;
+}
+
+.title {
+width: 33%;
+text-align: center;
+}
+
+.valores {
+    width: 33%;
+}
+
+#nos{
+
+}
+.card2 {
+    display: flex;
+}
+.card3 {
+    width: 33%;
+}

@@ -4,13 +4,17 @@ body {
 }
 article {
     text-align: center;
-    font-size: 30px;
     text-align: center;
 }
-
+h1{
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
 button {
-    color:blue;
-    background-color: #c6d0de;
+    color:white;
+    background-color: #545b67;
     border-radius: 5px;
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     width: 12%;

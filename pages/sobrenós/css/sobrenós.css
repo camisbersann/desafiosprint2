@@ -31,4 +31,11 @@ text-align: center;
 }
 .card3 {
     width: 33%;
+    padding: 5px;
+    margin: 2px;
+    border: 2px black solid;
+    background-color: gray;
+}
+.card3:hover {
+    transform: scale(1.03);
 }

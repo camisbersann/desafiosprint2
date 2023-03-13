@@ -1,19 +1,47 @@
 body {
-    background-color: rgb(230, 230, 230);
+    background-color: #545b67;
 }
 
 #input1 {
     display: flex;
     font-family: cursive;
     margin-bottom: 14px;
-    width: 35%;
+    width: 50%;
     border-radius: 2px;
 }
 
 #enviar {
-    color: white;
+    color: black;
     width: 20%;
-    background-color: rgb(238, 71, 33);
+    background-color: #6da9fd;
     padding: 5px;
     border-radius: 6px;
+    margin-left: 110px;
+}
+
+#enviar:hover {
+    transform: scale(1.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left:35%;
+    width: 60%
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-left: 1%;
+}
+
+#label1 {
+    color: rgb(248, 248, 248);
+    margin-bottom: 4px;
+}
+
+#label2 {
+    color: rgb(248, 248, 248);
+    margin-bottom: 4px;
 }

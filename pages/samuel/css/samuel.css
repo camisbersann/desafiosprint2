@@ -14,5 +14,11 @@ section  {
     margin: 1%;
  
 }
+#s2 {
+    display: flex;
+}
 
+body {
+    background-color: #545b67;
+}
 

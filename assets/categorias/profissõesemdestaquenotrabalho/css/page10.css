@@ -3,6 +3,8 @@ background-color:#545b67;
 }
 #art1{
     display: flex;
+}
+section{
     margin: 1%;
     border-radius: 10px;
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);

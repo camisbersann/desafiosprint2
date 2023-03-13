@@ -9,7 +9,7 @@ button {
     color:blue;
     background-color:cornflowerblue;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.95);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     width: 12%;
     height: 15%;
 }

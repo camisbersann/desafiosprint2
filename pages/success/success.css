@@ -7,14 +7,16 @@ article {
     text-align: center;
 }
 h1{
-    font-size: 30px;
+    font-size: 60px;
+    margin: 15px;
+
 }
 p {
     font-size: 20px;
 }
 button {
     color:white;
-    background-color: #545b67;
+    background-color: ;
     border-radius: 5px;
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     width: 12%;
@@ -25,7 +27,9 @@ button:hover {
     height: 17%;
     font-size: 20px;
 
-
 }
 
 /* criticos terminados*/
+img {
+    
+}

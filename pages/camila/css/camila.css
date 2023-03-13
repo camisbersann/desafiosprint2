@@ -28,10 +28,17 @@ h1{
     margin: 2%;
     padding: 1%;
 }
+/*Centralizar verticalmente*/
  .icon{
     display: flex;
     margin: 2%;
+    padding: 1%;
+    margin: auto;
+    align-items: center;
  }
  #section1{
     padding: 1%;
+ }
+ .p1{
+  padding: 2%;
  }

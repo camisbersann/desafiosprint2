@@ -3,4 +3,16 @@
     text-align: justify;
     background-color: #c6d0de;
 }
+section  {
+
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    background-color: #c6d0de;
+    margin: 1%;
+ 
+}
+
 

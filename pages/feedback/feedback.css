@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+#input1 {
+    display: flex;
+    font-family: cursive;
+    margin-bottom: 14px;
+    width: 35%;
+    border-radius: 2px;
+}
+
+#enviar {
+    color: white;
+    width: 20%;
+    background-color: rgb(238, 71, 33);
+    padding: 5px;
+    border-radius: 6px;
+}

@@ -1,0 +1,8 @@
+body{
+
+}
+#art1{
+    display: flex;
+    margin: 1%;
+    border-radius: 10px;
+}

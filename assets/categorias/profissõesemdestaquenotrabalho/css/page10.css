@@ -3,18 +3,16 @@ background-color:#545b67;
 }
 main{
     display: flex;
-    margin: 2%;
-    padding: 1%;
 }
 
 section{
-    
+    background-color: #c6d0de;
     border-radius: 10px;
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     border-left: #063e8d solid 10px;
     margin: 2%;
     padding: 1%;
 }
-#main2 {
-    width: 100%; 
+#art1 {
+    display: flex;
 }

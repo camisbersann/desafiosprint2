@@ -1,3 +1,32 @@
+
 .article {
 display: flex;
 }
+=======
+#div {
+    display: flex;
+
+}
+
+section {
+    width: 100%;
+    text-align: center;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    background-color: #c6d0de;
+    margin: 1%;
+    padding: 1%;
+}
+
+
+body {
+    background-image: linear-gradient( white, #545b67);
+}
+
+.pp:hover{
+    transform: scale(1.05);
+}
+

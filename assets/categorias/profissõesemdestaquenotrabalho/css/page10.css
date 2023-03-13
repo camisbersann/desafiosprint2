@@ -6,6 +6,7 @@ background-color:#545b67;
     margin: 1%;
     border-radius: 10px;
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
 }
 main {
     border-radius: 10px;

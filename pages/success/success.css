@@ -7,10 +7,15 @@ article {
 }
 button {
     color:blue;
-    background-color: black;
+    background-color:cornflowerblue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.95);
+    width: 12%;
+    height: 15%;
 }
 button:hover {
     width: 15%;
     height: 17%;
     font-size: 20px;
 }
+/* criticos terminados*/

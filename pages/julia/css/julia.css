@@ -23,3 +23,8 @@ section  {
 body {
     background-color: #545b67;
 }
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2%;
+    padding: 1%;
+}

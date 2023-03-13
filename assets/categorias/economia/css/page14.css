@@ -1,6 +1,10 @@
 body {
     background-color: #545b67;
 }
+#titulo {
+    color: white;
+    text-align: center;
+}
 
 
 #bloco1 {   background-color: #c6d0de;

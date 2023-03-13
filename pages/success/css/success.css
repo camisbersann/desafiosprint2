@@ -1,13 +1,13 @@
 /* começo do css*/
 body {
-    background-color: aqua;
+    background-color: #545b67;
 }
 article {
     text-align: center;
 }
 button {
     color:blue;
-    background-color:cornflowerblue;
+    background-color: #c6d0de;
     border-radius: 5px;
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     width: 12%;

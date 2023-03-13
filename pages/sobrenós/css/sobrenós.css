@@ -1,0 +1,71 @@
+body {
+    background-color: #545b67;
+}
+
+#text1 {
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+}
+#nos {
+    border: black solid 1px;
+    border-radius: 10px;
+}
+
+#arc1 {
+    padding: 1%;
+    margin: 1%;
+}
+.card1 {
+ display: flex;
+}
+
+.title {
+width: 33%;
+text-align: center;
+}
+
+.valores {
+    width: 33%;
+}
+#text2 {
+    background-color: none;
+
+}
+
+.card2 {
+    display: flex;
+
+
+}
+.card3 {
+    width: 33%;
+    padding: 1%;
+    margin: 1%;
+    border: 1px black solid;
+    background-color: #c6d0de;
+    border-radius: 10px;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    text-decoration: none;
+    color: black;
+}
+.card3:hover {
+    transform: scale(1.03);
+}
+.imgs {
+    border-radius: 100%;
+    border: 1px black solid;
+}
+.sub {
+display: flex;
+}
+.menu {
+    text-align: center;
+}

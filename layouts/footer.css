@@ -1,3 +1,4 @@
+/*Estilização do footer*/
 footer{
     background-color: #052c67;
     color: white;
@@ -6,6 +7,7 @@ footer{
     justify-content: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/*Estilização do body*/
 body{
     margin:0%;
     padding: 0%;
@@ -13,4 +15,10 @@ body{
     bottom: 0%;
     position: fixed;
     width: 100%;
+}
+/*Estilização do p1*/
+#p1{
+    color:white; 
+    margin: 0; 
+    font-size: 20px;
 }

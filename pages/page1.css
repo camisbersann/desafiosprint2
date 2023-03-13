@@ -21,4 +21,8 @@ body {
     background-color: #545b67
 }
 
+.pp:hover{
+    transform: scale(1.05);
+}
+
     

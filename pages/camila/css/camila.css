@@ -25,4 +25,13 @@ body {
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2%;
+    padding: 1%;
 }
+ .icon{
+    display: flex;
+    margin: 2%;
+ }
+ #section1{
+    padding: 1%;
+ }

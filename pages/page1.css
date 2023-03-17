@@ -24,9 +24,6 @@ body {
 .pp:hover{
     transform: scale(1.05);
     transition: 0.3s;
-    -webkit-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
-    -moz-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
-    box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
 }
 #d1{
     text-align: center;

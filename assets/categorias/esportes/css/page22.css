@@ -1,8 +1,8 @@
 body {
-    background-color: #545b67;
+    background-color: rgb(220, 220, 220);
 }
 #titulo {
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -85,7 +85,7 @@ ul li{
     font-size: 25px;
     letter-spacing: 3px;
     color:white;
-    background-color: red;
+    background-color:dimgray;
     text-align: center;
     margin-top: 7%;
     margin:1% auto;
@@ -103,9 +103,9 @@ ul li{
     padding: 1%;
 }
 .item p{
-    color: white;
+    color: black;
     text-align: center;
 }
 .item p a{
-    color: white;
+    color: black;
 }

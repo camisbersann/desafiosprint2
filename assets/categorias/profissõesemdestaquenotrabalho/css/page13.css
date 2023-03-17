@@ -22,3 +22,10 @@ h1 {
     text-align: center;
     text-shadow: 2px 2px white;
 }
+#footer1 {
+    bottom: 0%;
+    margin-bottom: -5px;
+}
+* {
+    margin:0;
+}

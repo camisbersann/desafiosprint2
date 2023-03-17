@@ -11,14 +11,14 @@ display: flex;
 section {
     width: 100%;
     text-align: center;
-    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: -webkit-box-shadow 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px 4px rgba(0, 0, 0, 0.75);
     border-left: #063e8d solid 10px;
     border-radius: 10px;
     background-color: #c6d0de;
     margin: 1%;
-    padding: 1%;
+    padding: 5%;
 }
 
 
@@ -28,5 +28,57 @@ body {
 
 .pp:hover{
     transform: scale(1.05);
+    transition: 0.3s;
+    -webkit-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
+    -moz-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
+    box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
 }
+
+#d1{
+    text-align: center;
+
+}
+
+#bi {
+    background-image: url(../assets/imagens/imgeconomia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#b2 {
+    background-image: url(../assets/imagens/imgesportes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#b3 {
+    background-image: url(../assets/imagens/imgmusica.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#b4 {
+    background-image: url(../assets/imagens/imgprofissões.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#b5 {
+    background-image: url(../assets/imagens/imgsaude.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#b6 {
+    background-image: url(../assets/imagens/imgvestibular.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: -3px 1px 2px rgb(255, 255, 255);
+    font-size: 25px;
+}
+
 

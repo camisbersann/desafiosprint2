@@ -56,25 +56,25 @@ aside {
     margin: 1%
 }
 
-h1 {
+h1{
     text-align: center;
     margin: 5px;
 }
 
-#card1 {
+#card1{
   display: flex;
 }
 
-img {
+img{
     border-radius: 10px;
 }
 
-#iframe {
+#iframe{
     bottom: 0%;
     margin-bottom: -5px;
 }
 
-* {
+*{
     margin: 0;
 }
 
@@ -82,11 +82,19 @@ p{
     margin-top: 10px;
 }
 
-#div4 {
+#div4{
     margin-top: 3%;
     border-top: 1px solid black;
     display: flex;
     width: 80%;
     margin-left: 9%;
+    margin-bottom: 5px solid black;
 }
 
+#p1{
+    margin-top: 4%;
+}
+
+#img4 {
+    margin-top: 2%;
+}

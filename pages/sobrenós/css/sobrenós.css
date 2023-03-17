@@ -5,14 +5,16 @@ body {
 
 }
 #arc1 {
-    background-color: aquamarine;
+    background-color: none;
     padding: 2%;
     margin: 1%;
 
 }
 
 #sobrenos {
-    background-color: aqua;
+    background-color: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
     display: flex;
 }
 #sobre {
@@ -21,8 +23,7 @@ body {
     text-align: justify;
 }
 #img1 {
-
-    border-radius: 100%;
+    border-radius: 22px;
     border: 1px solid black;
     margin: 1%;
 }
@@ -33,5 +34,52 @@ iframe {
     padding: 0;
 }
 #div2 {
-    
+}
+#arc2 {
+    background-color: none;
+    padding: 2%;
+    margin: 1%;
+    display: flex;
+    border-top: 1px black solid;
+}
+#mvv {
+    background-color: aqua;
+    width: 33%;
+    padding: 2%;
+    margin: 1%;
+    border: 1px solid black;
+}
+#mvv:hover {
+    transform: scale(1.07);
+    transform: scale(1.05);
+    transition: 0.3s;
+    -webkit-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
+    -moz-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
+    box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
+}
+#div3 {
+
+}
+
+#arc3{
+    background-color: none;
+    padding: 2%;
+    margin: 1%;
+    border-top: 1px black solid;
+}
+#nos {
+    padding: 2%;
+    margin: 1%;
+    background-color: aqua;
+    display: flex;
+    border: 1px solid black;
+}
+#nos:hover {
+    transform: scale(1.04);
+}
+.no {
+    border: 1px solid black;
+}
+#tex1 {
+    text-align: justify;
 }

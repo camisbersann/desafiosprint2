@@ -18,3 +18,7 @@ body {
     border-left: #063e8d solid 10px;
     border-radius: 10px;
 }
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px white;
+}

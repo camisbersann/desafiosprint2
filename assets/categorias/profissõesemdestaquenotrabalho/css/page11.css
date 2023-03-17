@@ -10,9 +10,16 @@ body {
     text-align: justify;
 }
 .sec1 {
-   margin: 2%;
-   background-color:rgba(8, 8, 210, 0.989);
+    margin: 2%;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
 }
 .div2 {
     background-color: #c6d0de;
+    margin: 0;
+    padding: 0;
 }

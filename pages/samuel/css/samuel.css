@@ -21,4 +21,23 @@ section  {
 body {
     background-color: #545b67;
 }
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2%;
+    padding: 1%;
+}
+/*Centralização verticalmente*/
+.icon{
+    display: flex;
+    margin: 2%;
+    padding: 1%;
+    margin: auto;
+    align-items: center;
+ }
+ #section1{
+    padding: 1%;
+ }
+ .p1{
+  padding: 2%;
+ }
 

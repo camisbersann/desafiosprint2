@@ -1,6 +1,6 @@
 /*Estilização do footer*/
 footer{
-    background-color: #052c67;
+    background-image: radial-gradient(#053f8b,#003985, #013883 , #022455);
     color: white;
     text-align: center;
     width: 100%;
@@ -15,6 +15,7 @@ body{
     bottom: 0%;
     position: fixed;
     width: 100%;
+
 }
 /*Estilização do p1*/
 #p1{
@@ -45,4 +46,12 @@ body{
 #imggg:hover {
     transform: rotate(350deg);
     animation:alternate;
+}
+
+
+#bordinhamarota {
+    border-top: white 1px solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }

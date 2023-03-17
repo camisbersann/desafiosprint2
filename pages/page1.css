@@ -31,38 +31,38 @@ body {
 }
 
 #bi {
-    background-image: url(../assets/imagens/imgeconomia.jpg);
+    background-image: url(../assets/imagens/img-economia.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 #b2 {
-    background-image: url(../assets/imagens/imgesportes.jpg);
+    background-image: url(../assets/imagens/img-esportes.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #b3 {
-    background-image: url(../assets/imagens/imgmusica.jpg);
+    background-image: url(../assets/imagens/img-musica.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #b4 {
-    background-image: url(../assets/imagens/imgprofissões.jpg);
+    background-image: url(../assets/imagens/img-profissões.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #b5 {
-    background-image: url(../assets/imagens/imgsaude.jpg);
+    background-image: url(../assets/imagens/img-saude.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #b6 {
-    background-image: url(../assets/imagens/imgvestibular.jfif);
+    background-image: url(../assets/imagens/img-vestibular.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

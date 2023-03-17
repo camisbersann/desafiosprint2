@@ -1,0 +1,7 @@
+body {
+    background-image: linear-gradient( white, #545b67);
+}
+#art1 {
+    display: flex;
+    text-align: justify;
+}

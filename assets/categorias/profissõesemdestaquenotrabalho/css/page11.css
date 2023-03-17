@@ -20,5 +20,10 @@ body {
 }
 h1 {
     text-align: center;
-    text-shadow: 2px 2px white;
+color: white;
+}
+
+iframe{
+    margin: 0;
+    padding: 0;
 }

@@ -3,7 +3,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 header{
-    background-image: url(../assets/imagens/fundo\ logo.jpg);
+    background-image: radial-gradient(#053f8b,#003985, #013883 , #022455);
     background-repeat:no-repeat;
     background-size: cover;
     color:white;
@@ -28,12 +28,14 @@ nav ul{
 }
 nav li{
     margin:0 10px;
+
 }
 nav a{
     color:white;
     text-decoration: none;
     text-transform: uppercase;
     padding: 3px;
+    
 }
 nav a:hover{
     background-color: #5a7fb6;
@@ -66,4 +68,8 @@ nav a:hover{
     border: 1px solid white;
     border-radius: 100%;
 
+}
+
+#sub {
+    border-bottom: white solid 1px;
 }

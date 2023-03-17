@@ -1,22 +1,23 @@
 body {
-    background-color: #545b67;
+    background-image: linear-gradient(white, #545b67);
 }
 
 #input1 {
     display: flex;
-    font-family: cursive;
+    font-family: Andale Mono, monospace;
     margin-bottom: 14px;
     width: 50%;
-    border-radius: 2px;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 #enviar {
-    color: black;
-    width: 20%;
-    background-color: #5a7fb6;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    background-color: #063e8d;
     padding: 5px;
     border-radius: 6px;
-    margin-left: 110px;
+    margin-left: 70px;
 }
 
 #enviar:hover {
@@ -26,8 +27,9 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    margin-left:35%;
-    width: 60%
+    margin-left: 35%;
+    width: 60%;
+
 }
 
 h1 {
@@ -37,13 +39,25 @@ h1 {
 }
 
 #label1 {
-    color: rgb(248, 248, 248);
+    color: rgb(0, 0, 0);
     margin-bottom: 4px;
     font-size: 18px;
 }
 
 #label2 {
-    color: rgb(248, 248, 248);
+    color: rgb(0, 0, 0);
     margin-bottom: 4px;
     font-size: 18px;
+}
+
+#div1 {
+    -webkit-box-shadow: 10px 10px 41px 19px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 10px 10px 41px 19px rgba(0, 0, 0, 0.65);
+    box-shadow: 10px 10px 41px 19px rgba(0, 0, 0, 0.65);
+    border-radius: 80px;
+    padding: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+
 }

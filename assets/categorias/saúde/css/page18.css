@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(223, 223, 223);
 }
 #titulo {
     color: rgb(0, 0, 0);
@@ -97,4 +97,12 @@ p{
 
 #img4 {
     margin-top: 2%;
+}
+
+#img5 {
+    margin-left: 11%;
+}
+
+#p4 {
+    
 }

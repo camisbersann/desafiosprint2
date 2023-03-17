@@ -1,71 +1,37 @@
 body {
-    background-color: #545b67;
+    background-color: rgb(220, 220, 220)
 }
+#div1 {
 
-#text1 {
-    background-color: #c6d0de;
-    border: 1px black solid;
-    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-    border-left: #063e8d solid 10px;
-    border-radius: 10px;
 }
-#nos {
-    border: black solid 1px;
-    border-radius: 10px;
-}
-
 #arc1 {
-    padding: 1%;
+    background-color: aquamarine;
+    padding: 2%;
     margin: 1%;
-}
-.card1 {
- display: flex;
-}
-
-.title {
-width: 33%;
-text-align: center;
-}
-
-.valores {
-    width: 33%;
-}
-#text2 {
-    background-color: none;
 
 }
 
-.card2 {
+#sobrenos {
+    background-color: aqua;
     display: flex;
-
-
 }
-.card3 {
-    width: 33%;
-    padding: 1%;
+#sobre {
     margin: 1%;
-    border: 1px black solid;
-    background-color: #c6d0de;
-    border-radius: 10px;
-    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-    border-left: #063e8d solid 10px;
-    text-decoration: none;
-    color: black;
+    padding: 2%;
+    text-align: justify;
 }
-.card3:hover {
-    transform: scale(1.03);
-}
-.imgs {
+#img1 {
+
     border-radius: 100%;
-    border: 1px black solid;
+    border: 1px solid black;
+    margin: 1%;
 }
-.sub {
-display: flex;
+
+iframe {
+    bottom: 0;
+    margin: 0;
+    padding: 0;
 }
-.menu {
-    text-align: center;
+#div2 {
+    
 }

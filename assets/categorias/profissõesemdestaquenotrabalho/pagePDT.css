@@ -23,9 +23,8 @@ p{
 .sec2 {
     display: flex;
     border-bottom: solid black 1px;
-    width: 60%;
-    margin: 1%;
-    padding: 2%;
+    width: 100%;
+
 }
 
 #card {
@@ -69,5 +68,12 @@ p{
     display: flex;
     margin: 1%;
     padding: 2%; 
-    width: 100%;
+}
+#iframe2{
+    bottom: 0%;
+    margin-bottom: -5px;
+}
+
+* {
+    margin:0;
 }

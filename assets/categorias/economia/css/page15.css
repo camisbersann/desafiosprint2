@@ -11,17 +11,21 @@ body {
     text-align: center;
     background-color: #c6d0de;
 }
+#sla {
+    display: flex;
+}
 
 #div1 {
-
+    display: flex;
+    width: 60%;
 }
 
 #arc1 {
     padding: 2%;
     margin: 1%;
     background-color: aqua;
-    border-bottom: black solid 1px;
-    width: 60%;
+
+
 }
 #sec1 {
     padding: 2%;
@@ -34,4 +38,33 @@ body {
     text-align: end;
 }
 
+#div2 {
+    width: 40%;
+}
+
+#arc2 {
+    background-color: aqua;
+    padding: 2%;
+    margin: 1%;
+    border-left: black solid 1px;
+
+
+}
+#sec2 {
+    background-color: aquamarine;
+    padding: 2%;
+    margin: 1%;
+
+}
+#sec3 {
+    background-color: aquamarine;
+    padding: 2%;
+    margin: 1%;
+}
+
+#mundo {
+        background-color: aquamarine;
+    padding: 2%;
+    margin: 1%;
+}
 

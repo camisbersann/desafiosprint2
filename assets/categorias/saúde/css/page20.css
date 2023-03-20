@@ -1,4 +1,17 @@
+body {
+    background-color: rgb(223, 223, 223);
+}
+
 h1 {
-    background-color: #c6d0de;
     text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: -11px;
+    font-size: 20px;
+}
+
+#div1 {
+    background-color: #c6d0de;
 }

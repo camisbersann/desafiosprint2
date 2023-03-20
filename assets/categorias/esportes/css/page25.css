@@ -35,3 +35,28 @@ h1{
 * {
     margin:0;
 }
+
+/*Estilização div1*/
+#div1{
+    text-align: center;
+    padding: 2%;
+   
+}
+
+#bloco1 {   
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 5%;
+    width: 70%;
+    text-align: center;
+    margin:auto;
+}
+h2{
+    text-align: center;
+}

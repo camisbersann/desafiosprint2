@@ -4,12 +4,16 @@ body {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
+
 
 #titulo {
     color: black;
     text-align: center;
     background-color: #c6d0de;
+    margin-bottom: 5%;
 }
 #sla {
     display: flex;
@@ -17,7 +21,7 @@ body {
 
 #div1 {
     display: flex;
-    width: 60%;
+    width: 70%;
 }
 
 #arc1 {
@@ -42,7 +46,7 @@ body {
 }
 
 #div2 {
-    width: 40%;
+    width: 30%;
 }
 
 #arc2 {
@@ -50,15 +54,23 @@ body {
     padding: 2%;
     margin: 1%;
     border-left: black solid 1px;
+    
 
 
 }
 #sec2 {
     padding: 2%;
-    margin: 1%; background-color: white;
+
+    margin: 1%; 
+    background-color: #c6d0de;
     border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     overflow: hidden;
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+}
+#sec2:hover {
+    transform: scale(1.03);
 
 }
 #sec3 {
@@ -68,6 +80,7 @@ body {
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     display: flex;
     overflow: hidden;
+    margin-top: 6%;
   }
 
 
@@ -77,8 +90,12 @@ body {
     border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     overflow: hidden;
+    margin-top: 9%;
 }
 
+*.slide-controller {
+    cursor: pointer;
+}
 
 .slide-controller:nth-child(1):checked ~ .slide-show .slides-list{--selected-item: 0;}
 .slide-controller:nth-child(2):checked ~ .slide-show .slides-list{--selected-item: 1;}
@@ -114,3 +131,4 @@ body {
   height: 512spx;
   border-radius: 2%;
 }
+

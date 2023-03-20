@@ -6,6 +6,7 @@ h1{
     margin-left: 120%;
     font-size: 70px;
 }
+
 /*banner*/
 .main-banner{
     background:url(../../../../assets/imagens/banner2.png) no-repeat;
@@ -15,7 +16,6 @@ h1{
     border-radius: 10px;
 
 }
-
 .flexslider{
     position: relative;
     width: 30%;
@@ -24,4 +24,14 @@ h1{
     padding-top: 8%;
     padding-bottom:7% ;
     text-align: center;
+}
+
+/*Fixação do footer*/
+#iframe2{
+    bottom: 0%;
+    margin-bottom: -5px;
+}
+
+* {
+    margin:0;
 }

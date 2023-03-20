@@ -1,0 +1,62 @@
+body {
+    background-color: #dfdfdf;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: -11px;
+    font-size: 20px;
+}
+
+#div1 {
+    background-color: #c6d0de;
+}
+
+#img1 {
+    width: 35%;
+    margin-left: 32%;
+    margin-top: 3%;
+}
+
+#diferenças {
+    margin-top: 3%;
+    font-size: 40px;
+    color: rgb(65, 65, 185);
+}
+
+#bloco1 {
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin-top: 10%;
+    width: 60%;
+    margin-left: 18%;
+}
+
+#card1{
+    display: flex;
+}
+
+#div3 {
+    background-color: #dfdfdf;
+}
+
+#iframe{
+    bottom: 0%;
+    margin-bottom: -5px;
+}
+
+*{
+    margin: 0;
+}

@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(220, 220, 220);
+}
+h1{
+    color: black;
+    margin-left: 120%;
+    font-size: 70px;
+}
+/*banner*/
+.main-banner{
+    background:url(../../../../assets/imagens/banner2.png) no-repeat;
+    background-size: cover;
+    background-position: 0 30%;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.flexslider{
+    position: relative;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    padding-bottom:7% ;
+    text-align: center;
+}

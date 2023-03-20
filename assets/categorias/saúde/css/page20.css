@@ -4,6 +4,8 @@ body {
 
 h1 {
     text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 h2 {
@@ -40,5 +42,21 @@ h2 {
     margin-top: 10%;
     width: 60%;
     margin-left: 18%;
-    
+}
+
+#card1{
+    display: flex;
+}
+
+#div3 {
+    background-color: #dfdfdf;
+}
+
+#iframe{
+    bottom: 0%;
+    margin-bottom: -5px;
+}
+
+*{
+    margin: 0;
 }

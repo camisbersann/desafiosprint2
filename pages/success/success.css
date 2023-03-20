@@ -1,6 +1,6 @@
 /* começo do css*/
 body {
-    background-color: #c6d0de;
+    background-color:rgb ( 220, 220, 220);
 }
 article {
     text-align: center;
@@ -19,13 +19,20 @@ button {
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     width: 12%;
     height: 15%;
+    margin: 10px;
 }
 button:hover {
     width: 15%;
     height: 17%;
     font-size: 20px;
+}
+#iframe2{
+    bottom: 0%;
+    margin-bottom: -5px;
+}
 
-
+* {
+    margin:0;
 }
 
 /* criticos terminados*/

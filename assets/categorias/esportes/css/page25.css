@@ -76,6 +76,8 @@ h2{
 }
 #div2{
     display: flex;
+    border-top: 1px solid black;
+    padding: 1%;
 }
 #div3{
     display: flex;
@@ -91,4 +93,8 @@ h2{
     padding: 1%;
     margin: 2%;
     align-items: center;
+}
+/*hover*/
+.section:hover{
+    transform: scale(1.05);
 }

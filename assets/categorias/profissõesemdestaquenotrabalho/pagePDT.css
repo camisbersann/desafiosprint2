@@ -26,10 +26,3 @@ p{
 .sec2 {
     display: flex;
 }
-#iframe2{
-    bottom:0%;
-    margin-bottom: -5px;
-}
-*{
-    margin: 0;
-}

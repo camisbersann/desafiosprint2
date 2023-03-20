@@ -92,3 +92,61 @@ html {
     width: 80px;
     margin-left: -6%;
   }
+  #iframe2{
+    bottom: 0%;
+    margin-bottom: -5px;
+}
+
+* {
+    margin:0;
+}
+
+  .image {
+    width: 50%;
+    height: 85%;
+    border-radius: 2%;
+  }
+
+  #bloco1 {
+        background-color: #c6d0de;
+        border: 1px black solid;
+        -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+        border-left: #063e8d solid 10px;
+        border-radius: 10px;
+        padding:2%;
+        margin-top: 2%;
+        width: 60%;
+        margin-left: 18%;
+  }
+
+  #icon1 {
+    width: 83px;
+    margin-left: 10%;
+  }
+
+  #p1 {
+    width: 50%;
+    margin-left: 30%;
+  }
+
+  #linha {
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+  }
+
+  #linha2 {
+    border-left: 1px solid black;
+  }
+
+  #p2 {
+    width: 50%;
+    margin-left: 22%;
+  }
+
+  #icon2 {
+    width: 80px;
+    margin-left: -6%;
+  }

@@ -17,9 +17,9 @@ h2 {
 }
 
 #img1 {
-    width: 40%;
-    margin-left: 30%;
-    margin-top: 0%;
+    width: 35%;
+    margin-left: 32%;
+    margin-top: 3%;
 }
 
 #diferenças {
@@ -28,13 +28,17 @@ h2 {
     color: rgb(65, 65, 185);
 }
 
-#div2 {
-    width: 10%;
-    margin-left: 10%;
-    margin-top:%;
-}
-
-#img2 {
+#bloco1 {
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin-top: 10%;
     width: 60%;
-    margin-left: 220%;
+    margin-left: 18%;
+    
 }

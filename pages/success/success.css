@@ -1,20 +1,23 @@
 /* começo do css*/
 body {
+
     background-color:rgb ( 220, 220, 220);
+
 }
 article {
     text-align: center;
-    text-align: center;
 }
 h1{
-    font-size: 30px;
+    font-size: 60px;
+    margin: 15px;
+
 }
 p {
     font-size: 20px;
 }
 button {
-    color:white;
-    background-color: #545b67;
+    color:black;
+    background-color: #5a7fb6;
     border-radius: 5px;
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
     width: 12%;
@@ -33,6 +36,5 @@ button:hover {
 
 * {
     margin:0;
-}
 
-/* criticos terminados*/
+}

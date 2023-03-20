@@ -24,6 +24,7 @@ margin: 10px;
     display: flex;
     border-bottom: solid black 1px;
     width: 100%;
+    margin: 10px;
 
 }
 
@@ -35,7 +36,7 @@ margin: 10px;
     background-color: #063e8d;
 }
 .tema2{
-    margin: 0;
+    margin:8px;
 }
 .margin1{
     margin: 0;
@@ -60,9 +61,6 @@ margin: 10px;
     bottom: 0;
     left: 50%;
     background-color: #063e8d;
-}
-.text {
-    margin: 10px;
 }
 #sec3{
     display: flex;

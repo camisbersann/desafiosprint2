@@ -64,7 +64,7 @@ html {
   }
 
   #icon1 {
-    width: 80px;
+    width: 83px;
     margin-left: 10%;
   }
 
@@ -81,4 +81,14 @@ html {
 
   #linha2 {
     border-left: 1px solid black;
+  }
+
+  #p2 {
+    width: 50%;
+    margin-left: 22%;
+  }
+
+  #icon2 {
+    width: 80px;
+    margin-left: -6%;
   }

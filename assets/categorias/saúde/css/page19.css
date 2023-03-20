@@ -38,5 +38,7 @@ html{
   }
 
   .image {
-    
+    width: 50%;
+    height: 85%;
+    border-radius: 2%;
   }

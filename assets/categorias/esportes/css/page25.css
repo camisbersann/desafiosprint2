@@ -62,3 +62,33 @@ h2{
 }
 
 /*estilização dos cards*/
+.section{
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin: 1%;
+    text-align: center;
+}
+#div2{
+    display: flex;
+}
+#div3{
+    display: flex;
+}
+#div4{
+    display: flex;
+}
+h2{
+    text-align: center;
+}
+.img1{
+    margin: 2%;
+    padding: 1%;
+    margin: 2%;
+    align-items: center;
+}

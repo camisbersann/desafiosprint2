@@ -84,12 +84,28 @@ h2 {
     border-radius: 10px;
     padding:2%;
     margin: 1%;
+    width: 70%;
+    margin-left: 15%;
+}
+#card1{
+    text-align: center;
+    width: 70%;
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin: 1%;
 }
 #div1 {
     width: 70%;
+    margin-left: 15%;
 }
 #div2 {
-    width: 30%;
+   display: flex;
 }
 
 #blocos3{
@@ -102,7 +118,20 @@ h2 {
     border-radius: 10px;
     padding:2%;
     margin: 1%;
+    width: 70%;
 }
 #div3{
     display: flex;
+}
+#lado-R {
+    width: 30%;
+    background-color: #c6d0de;
+    border: 1px black solid;
+    -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
+    border-left: #063e8d solid 10px;
+    border-radius: 10px;
+    padding:2%;
+    margin: 1%;
 }

@@ -10,6 +10,9 @@ body {
     margin: 1%;
 
 }
+.tit {
+  text-align: center;
+}
 
 #sobrenos {
     background-color: none;
@@ -22,7 +25,6 @@ body {
 }
 #img1 {
     border-radius: 22px;
-    border: 1px solid black;
     margin: 1%;
 }
 
@@ -54,7 +56,7 @@ iframe {
     box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
 }
 .div3 {
-    display: flex;
+  border-top: 1px black solid;
 }
 
 #arc3{
@@ -62,7 +64,7 @@ iframe {
     padding: 2%;
     padding-bottom: 0;
     margin: 1%;
-    border-top: 1px black solid;
+
     display: flex;
 }
 #arc4 {
@@ -74,7 +76,7 @@ iframe {
 }
 #nos {
 
-    padding: 0%;
+    padding: 10%;
     margin: 5%;
     background-color: white;
     border-left: #063e8d solid 10px;
@@ -83,11 +85,7 @@ iframe {
 }
 #nos:hover {
     transform: scale(1.05);
-    transition: 0.3s;
-    -webkit-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
-    -moz-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
-    box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
-}
+    transition: 0.3s;}
 .no {
 
     height: 256px;

@@ -1,4 +1,4 @@
-/* começo do css*/
+/* responsável pela cor de fundo*/
 body {
     background-color: rgb( 220, 220, 220);
 }
@@ -16,6 +16,8 @@ p {
     
 }
 
+
+/* responsável pelo botão*/
 button {
     color:black;
     background-color: #5a7fb6;
@@ -34,6 +36,7 @@ button:hover {
     font-size: 15px;
 }
 
+/*responsável pela imagem da logo*/
 #img1 { 
     border-radius: 30%;
     width: 70%;
@@ -54,6 +57,7 @@ button:hover {
     display: flex;
 }
 
+/*responsável pelos textos*/
 #p2 {
     margin-top: -100px;
     margin-left: 2%;

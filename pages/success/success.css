@@ -1,44 +1,54 @@
 /* começo do css*/
 body {
-
-    background-color:rgb ( 220, 220, 220);
-
+    background-color: rgb( 220, 220, 220);
 }
-article {
-    text-align: center;
-}
+
 h1{
-    font-size: 60px;
-    margin: 15px;
+    font-size: 70px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
 
-}
-p {
+#p1 {
     font-size: 20px;
+    margin-bottom: 2%;
+    
 }
+
 button {
     color:black;
     background-color: #5a7fb6;
     border-radius: 5px;
     box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
-    width: 12%;
+    width: 13%;
     height: 15%;
-    margin: 10px;
+    margin-left: 10%;
+    padding: 5px;
 }
+
 button:hover {
     width: 15%;
     height: 17%;
     font-size: 20px;
 }
-#iframe2{
+
+#img1 { 
+    padding: 1%;
+    width: 50%;
+    height:97%;
+    margin-bottom: 1%;
+
+}
+
+#iframe{
     bottom: 0%;
     margin-bottom: -5px;
 }
 
-<<<<<<< HEAD
-/* criticos terminados*/
-=======
-* {
-    margin:0;
+*{
+    margin: 0;
+} 
 
+#sla {
+    display: flex;
 }
->>>>>>> 32589402d058aa4a7bb866772ffb3d70cc13d25f

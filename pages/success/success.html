@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html>
 
+<!--estruturação com link rel do sucess.css-->
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="success.css">
 </head>
-<!--estruturação basica do html-->
 
+<!--Responsável pelo corpo da página e iframe com header.html-->
 <body>
     <iframe src="../../layouts/header.html" frameborder="0" width="100%"></iframe>
     <Main>
         <div>
             <Article>
                 <section>
-                    <!--botao foi feito-->
-                    <h1>Recebemos sua mensagem!</h1>
-                    <div>
-                        <img src="imagens/success.png" width="245" height="245">
+                    <div id="sla">
+                        <div>
+                            <h1>Recebemos sua mensagem!</h1>
+                        </div>
+
+                        <!--Responsável pela imagem de sucess-->
+                        <div>
+                            <img id="img1" src="../julia/images/sucess.png" width="50" height="50">
+                        </div>
                     </div>
 
-                    <p>Agora é somente esperar que estaremos lendo seu comentário. </p>
-                    <p>Por que não ler outros artigos nossos? </p>
-                    <p>Para isso apenas clique abaixo. </p>
+                    <div id="p1">
+                        <p>Agora é somente esperar que estaremos lendo seu comentário. </p>
+                        <p>Por que não ler outros artigos nossos? </p>
+                        <p>Para isso apenas clique abaixo. </p>
+                    </div>
+
                 </section>
-                <section >
+
+                <section>
                     <form action="">
                         <button>Volte para o início</button>
                     </form>
                 </section>
-                <!--terminei o texto -->
 
             </Article>
         </div>
     </Main>
-    <!--organizado a estrutura do site-->
+    <!--Responsável pelo iframe com o footer-->
     <iframe id="iframe2" src="../../layouts/footer.html" frameborder="0" width="100%"></iframe>
 </body>
 

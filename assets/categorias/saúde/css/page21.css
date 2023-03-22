@@ -97,6 +97,7 @@ p{
 
 #img4 {
     margin-top: 2%;
+    margin-left: 10px;
 }
 
 #img5 {
@@ -106,4 +107,19 @@ p{
 #div5 {
     background-color: #c6d0de;
     text-align: center;
+}
+
+#img0 {
+    margin-top: -27px;
+}
+
+#img00 {
+    margin-bottom: -18px;
+    margin-top: 10px;
+}
+
+#div6 {
+    background-color: rgb(253, 199, 208);
+    text-align: center;
+    margin-top: 3%;
 }

@@ -1,3 +1,4 @@
+/*Estilização da section*/
 #s1 {
     display: flex;
     text-align: justify;
@@ -17,15 +18,22 @@ section  {
 #s2 {
     display: flex;
 }
+#section1{
+    padding: 1%;
+ }
 
+ /*Estilização do body*/
 body {
-    background-color: #545b67;
+    background-color: rgb(220, 220, 220);
 }
+
+/*Estilização do h1*/
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 2%;
     padding: 1%;
 }
+
 /*Centralização verticalmente*/
 .icon{
     display: flex;
@@ -34,10 +42,19 @@ h1{
     margin: auto;
     align-items: center;
  }
- #section1{
-    padding: 1%;
- }
+
+/*Estilização do p1*/
  .p1{
   padding: 2%;
+ }
+
+ /*Fixação do header e do footer*/
+ #iframe2{
+    bottom: 0%;
+    margin-bottom: -5px;
+ }
+
+ *{
+    margin: 0;
  }
 

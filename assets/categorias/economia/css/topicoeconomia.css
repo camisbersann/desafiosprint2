@@ -5,10 +5,19 @@ body{
 
 #div {
     display: flex;
+    
 }
 
 section {
-    width: 100%;
+
+}
+
+.pp:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.pp {
     text-align: center;
     box-shadow: -webkit-box-shadow 10px 10px 19px 2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 19px 2px rgba(0, 0, 0, 0.75);
@@ -17,12 +26,12 @@ section {
     border-radius: 10px;
     background-color: #c6d0de;
     margin: 1%;
-    padding: 5%;
-}
-
-.pp:hover{
-    transform: scale(1.05);
-    transition: 0.3s;
+    padding: 4%;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    width: 35.5%;
+    
 }
 
 #d1{
@@ -31,23 +40,10 @@ section {
 }
 
 #bi {
-    background-image: url(../assets/imagens/img-economia.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    text-align: center;
 }
 
-#b2 {
-    background-image: url(../assets/imagens/img-esportes.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
-#b4 {
-    background-image: url(../assets/imagens/img-profissões.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 #iframe2{
     bottom: 0%;
@@ -57,3 +53,8 @@ section {
  *{
     margin: 0;
  }
+
+ .sla {
+    margin: 2%;
+ }
+ 

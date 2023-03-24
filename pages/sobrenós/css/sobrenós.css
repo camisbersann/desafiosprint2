@@ -58,7 +58,7 @@ iframe {
 .div3 {
   border-top: 1px black solid;
 }
-
+/*estilizaçao dos article*/
 #arc3{
     background-color: none;
     padding: 2%;
@@ -75,7 +75,6 @@ iframe {
     display: flex;
 }
 #nos {
-
     padding: 10%;
     margin: 5%;
     background-color: white;
@@ -100,6 +99,7 @@ iframe {
     border-top: 1px black solid;
 
 }
+/* decoraçao do links dos cards*/
 a {
     text-decoration: none;
     color: black;
@@ -111,7 +111,7 @@ a {
 *::after {
   box-sizing: border-box;
 }
-
+/* class principal dos cards*/
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -124,7 +124,7 @@ a {
   display: flex;
   padding: 1rem;
 }
-
+/* class para poder ajustar a img dentro dos cards*/
 .card_image {
   position: relative;
   max-height: 250px;
@@ -171,21 +171,21 @@ a {
   max-height: 290px;
   overflow-y: scroll;
 }
-
+/* class para poder ajustar o tamnho da srcollbar*/
 .card_content::-webkit-scrollbar {
   width: 8px;
 }
-
+/* class para tirar a borda e shadow da srcollbar*/
 .card_content::-webkit-scrollbar-track {
   box-shadow: 0;
   border-radius: 0;
 }
-
+/* class para estilizar a srcollbar*/
 .card_content::-webkit-scrollbar-thumb {
   background: #063e8d;
   border-radius: 15px;
 }
-
+/* class para poder ajusatr o titulo dentro dos cards*/
 .card_title {
   position: relative;
   margin: 0 0 24px;
@@ -194,7 +194,7 @@ a {
   font-size: 20px;
   font-weight: 700;
 }
-
+/* class para o titulo nao descer junto com o movimento de srolling*/
 .card_title::after {
   position: absolute;
   display: block;

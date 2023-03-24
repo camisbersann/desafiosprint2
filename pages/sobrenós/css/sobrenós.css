@@ -103,6 +103,7 @@ iframe {
 a {
     text-decoration: none;
     color: black;
+    width: 33%;
 }
 
 *,
@@ -232,4 +233,19 @@ hr {
     -webkit-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
     -moz-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
     box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
+}
+
+#tex2 {
+  margin: auto;
+  text-align: center;
+
+}
+.card-item {
+  border: #063e8d solid 1px;
+  width: 40%;
+  margin: auto;
+}
+
+#shiu {
+  color: none;
 }

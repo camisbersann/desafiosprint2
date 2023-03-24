@@ -1,9 +1,9 @@
+/*Estilização da section*/
 #s1 {
     display: flex;
     text-align: justify;
     background-color: #c6d0de;
 }
-
 section  {
 
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
@@ -13,21 +13,28 @@ section  {
     border-radius: 10px;
     background-color: #c6d0de;
     margin: 1%;
- 
+}
+#section1{
+    padding: 1%;
 }
 
+/*Estilização da article*/
 #s2 {
     display: flex;
 }
 
+/*Estilização do body*/
 body {
-    background-color: #545b67;
+    background-color: rgb(223, 223, 223);
 }
+
+/*Estilização do h1*/
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 2%;
     padding: 1%;
 }
+
 /*Centralizar verticalmente*/
  .icon{
     display: flex;
@@ -36,9 +43,18 @@ h1{
     margin: auto;
     align-items: center;
  }
- #section1{
-    padding: 1%;
- }
+
+ /*Estilização do p*/
  .p1{
   padding: 2%;
+ }
+
+ /*Fixação do header e footer*/
+ #iframe2{
+    bottom: 0%;
+    margin-bottom: -5px;
+ }
+
+ *{
+    margin: 0;
  }

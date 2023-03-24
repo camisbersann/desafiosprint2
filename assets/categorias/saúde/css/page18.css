@@ -32,6 +32,7 @@ body {
     border-radius: 10px;
     padding:2%;
     margin: 1%;
+    margin-top: 3%;
 
 }
 .lado {
@@ -39,7 +40,8 @@ body {
 }
 #bloco3{
     padding:2%;
-    margin: 1%
+    margin: 1%;
+    margin-top: 6%;
 }
 aside {
     width: 35%;
@@ -92,17 +94,54 @@ p{
 }
 
 #p1{
-    margin-top: 4%;
+    margin-top: 6%;
+    margin-left: -9%;
 }
 
 #img4 {
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 #img5 {
     margin-left: 11%;
 }
 
-#p4 {
-    
+#img0 {
+    margin-bottom: -2%;
+    margin-top: 2%;
 }
+
+h2 {
+    margin-top: 1%;
+
+}
+
+#p2 {
+    margin-top: 9%;
+    margin-left: -19%;
+    margin-bottom: -9%;
+}
+
+#ado {
+    margin-left: 11%;
+}
+
+#img00 {
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+#h22 {
+    margin-left: -1%;
+}
+
+#adulto {
+    margin-left: 4px;
+}
+
+li {
+    margin: 5px;
+   margin-left: 2px;
+    list-style: none;
+}
+

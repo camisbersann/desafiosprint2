@@ -19,9 +19,9 @@ h2 {
 }
 
 #img1 {
-    width: 35%;
-    margin-left: 32%;
-    margin-top: 3%;
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 0%;
 }
 
 #diferenças {
@@ -39,7 +39,7 @@ h2 {
     border-left: #063e8d solid 10px;
     border-radius: 10px;
     padding:2%;
-    margin-top: 10%;
+    margin-top: 4%;
     width: 60%;
     margin-left: 18%;
 }
@@ -59,4 +59,9 @@ h2 {
 
 *{
     margin: 0;
+}
+
+#jml {
+    margin-top: -5%;
+    margin-bottom: 1%;
 }

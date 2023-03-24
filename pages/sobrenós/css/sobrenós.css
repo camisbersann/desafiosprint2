@@ -1,6 +1,7 @@
 body {
     background-color: rgb(220, 220, 220)
 }
+/* estilizaçao da div*/
 #div1 {
 
 }
@@ -8,12 +9,11 @@ body {
     background-color: none;
     padding: 2%;
     margin: 1%;
-
+/*estilizaçao das class e ids dos conteudos do html*/
 }
 .tit {
   text-align: center;
 }
-
 #sobrenos {
     background-color: none;
     display: flex;
@@ -27,7 +27,7 @@ body {
     border-radius: 22px;
     margin: 1%;
 }
-
+/* arrumando para colar o footer e o header no pag*/
 iframe {
     bottom: 0;
     margin: 0;
@@ -44,7 +44,7 @@ iframe {
     
 }
 #mvv {
-
+/* id e hover para poder customizar quando ou mouse passa por cima dos cards do mmv*/
     
 }
 #mvv:hover {
@@ -112,11 +112,6 @@ a {
   box-sizing: border-box;
 }
 
-.main {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -168,7 +163,7 @@ a {
   flex-direction: column;
   overflow: hidden;
 }
-
+/* traço no card de mmv*/
 .card_content {
   position: relative;
   padding: 16px 12px 32px 24px;
@@ -240,6 +235,7 @@ hr {
   text-align: center;
 
 }
+/* traço no card de mmbros*/
 .card-item {
   border: #063e8d solid 1px;
   width: 40%;
@@ -247,5 +243,5 @@ hr {
 }
 
 #shiu {
-  color: none;
+  color: white;
 }

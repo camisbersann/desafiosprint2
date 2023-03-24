@@ -136,3 +136,9 @@ h2 {
 #adulto {
     margin-left: 4px;
 }
+
+li {
+    margin: 5px;
+   margin-left: 2px;
+    list-style: none;
+}

@@ -91,3 +91,18 @@ article {
     margin-left:  1%;
     margin-top: 5%;
 }
+
+p {
+    font-size: 150%;
+
+}
+
+.vejamais {
+    background-color: #063e8d;
+    width: 13%;
+    color: #ffffff;
+}
+
+.oi {
+    color: #ffffff;
+}

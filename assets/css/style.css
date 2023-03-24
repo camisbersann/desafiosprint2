@@ -9,7 +9,9 @@
     background-image: url(../imagens/profissõesEmAlta.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 20%;
+    padding: 29.6%;
+    margin: 2%;
+    border-radius: 1.5%;
 }
 
 #s2 {
@@ -17,6 +19,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 8%;
+    margin-top: 1.8%;
+    border-radius: 1.5%;
+
 }
 
 #s3 {
@@ -24,6 +29,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 8%;
+    margin-top:  1%;
+    border-radius: 1.5%;
 }
 
 #a1 {
@@ -44,4 +51,19 @@ p {
 }
 article {
     margin-top: 2%;
+}
+
+#s1:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+#s2:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+#s3:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
 }

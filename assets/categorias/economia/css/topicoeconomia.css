@@ -3,15 +3,13 @@ body{
     background-color: rgb(220, 220, 220);
 }
 
+/*Estilização da div*/
 #div {
     display: flex;
     
 }
 
-section {
-
-}
-
+/*Estilização do pp*/
 .pp:hover{
     transform: scale(1.05);
     transition: 0.3s;
@@ -34,17 +32,18 @@ section {
     
 }
 
+/*Estilização da d1*/
 #d1{
     text-align: center;
 
 }
 
+/*Estilização do bi*/
 #bi {
     text-align: center;
 }
 
-
-
+/*Fixação do header e footer*/
 #iframe2{
     bottom: 0%;
     margin-bottom: -5px;
@@ -54,6 +53,7 @@ section {
     margin: 0;
  }
 
+ /*Estilização do sla*/
  .sla {
     margin: 2%;
  }

@@ -1,7 +1,10 @@
+/*Estilização do body*/
 body{
     margin:0;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+/*Estilização do header*/
 header{
     background-image: radial-gradient(#053f8b,#003985, #013883 , #022455);
     background-repeat:no-repeat;
@@ -12,6 +15,8 @@ header{
     position: fixed;
     text-align: center;
 }
+
+/*Estilização do imgg*/
 #imgg{
     align-items: center;
     justify-content: center;
@@ -19,6 +24,8 @@ header{
     margin:0;
 
 }
+
+/*Estilização do nav ul, li*/
 nav ul{
     list-style: none;
     margin:0;
@@ -42,6 +49,8 @@ nav a:hover{
     color:#1a3764;
     border-radius: 5px;
 }
+
+/*Estilização da logo*/
 .logo-container {
     display: flex;
     justify-content: center;
@@ -70,6 +79,7 @@ nav a:hover{
 
 }
 
+/*Estilização da div*/
 #sub {
     border-bottom: white solid 1px;
 }

@@ -1,7 +1,9 @@
+/*responsável pela cor de fundo*/
 body {
     background-color: #dfdfdf;
 }
 
+/*responsável pelos textos e titulos*/
 h1 {
     text-align: center;
     margin-bottom: 2%;
@@ -18,6 +20,7 @@ h2 {
     background-color: #c6d0de;
 }
 
+/*responsavel pela imagem*/
 #img1 {
     width: 75%;
     margin-left: 12%;
@@ -30,6 +33,7 @@ h2 {
     color: rgb(65, 65, 185);
 }
 
+/*responsável pelos cards*/
 #bloco1 {
     background-color: #c6d0de;
     border: 1px black solid;
@@ -52,6 +56,7 @@ h2 {
     background-color: #dfdfdf;
 }
 
+/*responsável por colar o header e footer*/
 #iframe{
     bottom: 0%;
     margin-bottom: -5px;

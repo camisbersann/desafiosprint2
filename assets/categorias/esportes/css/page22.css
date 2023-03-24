@@ -77,7 +77,6 @@ ul li{
     position: absolute;
     z-index: -1;
     border-right: 2px dashed;
-    rgb(247, 237, 160);
     box-sizing: border-box;
 }
 .ano{

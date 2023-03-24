@@ -1,0 +1,38 @@
+#imgAD1{
+    text-align: center;
+}
+#firstarticle {
+    display: flex;
+}
+
+#s1 {
+    background-image: url(../imagens/profissõesEmAlta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25%;
+}
+
+#s2 {
+    background-image: url(../imagens/fred-larissa-bbb23.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 12%;
+}
+
+#a1 {
+    width: 50%;
+    margin-left: 5%;
+}
+#a2 {
+    width: 50%;
+
+}
+
+p {
+    font-size: 35px;
+    text-shadow: 3px 3px 15px #000000;
+    color: #ffffff;
+}
+article {
+    margin-top: 2%;
+}

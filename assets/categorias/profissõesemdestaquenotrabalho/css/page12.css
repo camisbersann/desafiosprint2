@@ -5,19 +5,20 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-
+/* colocou cor de fundo e arrumou o widht e height com box-sizing*/
 #titulo {
     color: black;
     text-align: center;
     background-color: #c6d0de;
     margin-bottom: 5%;
 }
+/* fiz o titulp e editei colocando a margim para regular*/
 #sla {
     display: flex;
 }
+/*Adicionado display na tag mae de todas as divs*/
 
 #div1 {
     display: flex;
@@ -28,9 +29,8 @@ body {
     padding: 2%;
     margin: 1%;
     background-color: none;
-
-
 }
+/*foi tirada a cor do artigle para dar efeito no site*/
 #sec1 {
     padding: 2%;
     margin: 1%;
@@ -40,7 +40,7 @@ body {
     display: flex;
     overflow: hidden;
 }
-
+/*estilizado o card*/
 .img1 {
     text-align: end;
 }
@@ -53,14 +53,11 @@ body {
     background-color: none;
     padding: 2%;
     margin: 1%;
-    border-left: black solid 1px;
-    
-
-
+    border-left: black solid 1px;    
 }
+/**/
 #sec2 {
     padding: 2%;
-
     margin: 1%; 
     background-color: #c6d0de;
     border-radius: 0.25rem;
@@ -69,9 +66,9 @@ body {
     border-left: #063e8d solid 10px;
     border-radius: 10px;
 }
+/* fazendo a faixa do lado do card*/
 #sec2:hover {
     transform: scale(1.03);
-
 }
 #sec3 {
     padding: 2%;
@@ -83,7 +80,7 @@ body {
     margin-top: 6%;
   }
 
-
+/*adicionei a sombra */
 #mundo {
     padding: 2%;
     margin: 1%; background-color: white;
@@ -105,7 +102,7 @@ body {
 .slide-show {
   overflow: hidden;
 }
-
+/*estilizaçao do css*/
 .slides-list {
   --selected-item: 0;
   --total-items: 4;
@@ -121,7 +118,7 @@ body {
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
 }
-
+/* faz funcionar a troca de imagens*/
 .slide {
   width: 100%;
 }
@@ -140,3 +137,4 @@ body {
     * {
         margin:0;
     }
+/* estilizaçao da imagem e ajeitamento do footer*/

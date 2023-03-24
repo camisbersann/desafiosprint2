@@ -111,3 +111,9 @@ p{
     width: 30%;
     margin: auto;
 }
+#card-item2 {
+    border: #063e8d 2px solid;
+    background-color: #063e8d;
+    width: 23%;
+    margin: auto;
+}

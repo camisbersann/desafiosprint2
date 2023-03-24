@@ -44,7 +44,7 @@
 
 }
 
-p {
+h1 {
     font-size: 35px;
     text-shadow: 3px 3px 15px #000000;
     color: #ffffff;
@@ -66,4 +66,28 @@ article {
 #s3:hover {
     transform: scale(1.05);
     transition: 0.2s;
+}
+
+.arc1 {
+
+    padding: 2%;
+    margin: 1%;
+    border-bottom: 1px solid black;
+}
+
+.art1 {
+    display: flex;
+
+}
+
+.risco {
+    background-color: #063e8d;
+    width: 0.5%;
+    height: 250px;
+    margin-left: 10px;
+}
+
+.s4 {
+    margin-left:  1%;
+    margin-top: 5%;
 }

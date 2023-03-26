@@ -58,8 +58,15 @@ body{
     margin: 2%;
  }
 
+ /*Estilização da imgg*/
  .imgg{
     margin-top: 3%;
  }
  
+  /*Estiliza~ção da div ee*/
+  #ee{
+    background-color: #c6d0de;
+    text-align: center;
+    margin-top: 2%;
+ }
  

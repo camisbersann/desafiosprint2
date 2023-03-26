@@ -57,4 +57,16 @@ body{
  .sla {
     margin: 2%;
  }
+
+ /*Estilização imgg*/
+ .imgg{
+    margin-top: 2%;
+ }
+
+ /*Estiliza~ção da div ee*/
+ #ee{
+    background-color: #c6d0de;
+    text-align: center;
+    margin-top: 2%;
+ }
  

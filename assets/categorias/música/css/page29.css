@@ -157,3 +157,8 @@ p{
 img {
     margin-left: 15px;
 }
+
+#anuncio {
+    text-align: center;
+    margin-top: 2%;
+}

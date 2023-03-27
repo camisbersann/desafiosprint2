@@ -1,6 +1,9 @@
+/*responsável pela cor de fundo do site*/
 body {
     background-color: rgb(223, 223, 223);
 }
+
+/*responsável pelo titulo e cor*/
 #titulo {
     color: rgb(0, 0, 0);
     text-align: center;
@@ -8,7 +11,7 @@ body {
     margin-top: 1%;
 }
 
-
+/*responsavel pelos cards*/
 #bloco1 {   background-color: #c6d0de;
     border: 1px black solid;
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
@@ -58,6 +61,8 @@ aside {
     margin: 1%
 }
 
+
+/*responsavel pelo titulo*/
 h1{
     text-align: center;
     margin: 5px;
@@ -71,6 +76,8 @@ img{
     border-radius: 10px;
 }
 
+
+/*responsavel por colar o header e footer*/
 #iframe{
     bottom: 0%;
     margin-bottom: -5px;

@@ -135,14 +135,15 @@ body {
 #div{
 }
 #art4 {
-    background-color: aqua;
+    background-color: none;
     margin: 1%;
     padding: 2%;
     display: flex;
 }
 
 .sec4 {
-    background-color: aquamarine;
+    background-color: white;
+    border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     margin: 1%;
     padding: 2%;
@@ -154,14 +155,33 @@ body {
 }
 
 .comment_card {
-    display: flex;
 }
 
 .content_comment_card {
-    margin: 10%;
 }
-.title_comment {
-    margin-bottom: 30%;
+.nickname {
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
+.comment_info {
+    display: flex;
+    margin-top: 10%;
+}
+
+.title_name {
+    color: #999;
+}
+
+.content_comment_card p::after {
+	content: "\201D";
+	display: inline;
+	color: #999;
+}
+
+.content_comment_card p::before {
+	content: "\201C";
+	display: inline;
+	color: #999;
+}
 

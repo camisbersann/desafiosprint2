@@ -133,12 +133,14 @@ body {
 }
 
 #div{
+    margin-bottom: 0;
 }
 #art4 {
     background-color: none;
     margin: 1%;
     padding: 2%;
     display: flex;
+    margin-bottom: 0;
 }
 
 .sec4 {
@@ -148,20 +150,20 @@ body {
     margin: 1%;
     padding: 2%;
     width: 33%;
+    margin-bottom: 0;
 }
 
 .icon_profile {
     border-radius: 100%;
 }
 
-.comment_card {
-}
-
 .content_comment_card {
+
 }
 .nickname {
     margin-left: 5%;
     margin-top: 5%;
+    border-bottom: 2px solid #063e8d;
 }
 
 .comment_info {
@@ -171,6 +173,10 @@ body {
 
 .title_name {
     color: #999;
+}
+
+.comment_card {
+
 }
 
 .content_comment_card p::after {

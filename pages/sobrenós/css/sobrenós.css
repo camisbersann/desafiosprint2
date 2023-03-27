@@ -1,6 +1,7 @@
 body {
     background-color: rgb(220, 220, 220)
 }
+/* estilizaçao da div*/
 #div1 {
 
 }
@@ -8,12 +9,11 @@ body {
     background-color: none;
     padding: 2%;
     margin: 1%;
-
+/*estilizaçao das class e ids dos conteudos do html*/
 }
 .tit {
   text-align: center;
 }
-
 #sobrenos {
     background-color: none;
     display: flex;
@@ -27,7 +27,7 @@ body {
     border-radius: 22px;
     margin: 1%;
 }
-
+/* arrumando para colar o footer e o header no pag*/
 iframe {
     bottom: 0;
     margin: 0;
@@ -44,7 +44,7 @@ iframe {
     
 }
 #mvv {
-
+/* id e hover para poder customizar quando ou mouse passa por cima dos cards do mmv*/
     
 }
 #mvv:hover {
@@ -58,7 +58,7 @@ iframe {
 .div3 {
   border-top: 1px black solid;
 }
-
+/*estilizaçao dos article*/
 #arc3{
     background-color: none;
     padding: 2%;
@@ -75,7 +75,6 @@ iframe {
     display: flex;
 }
 #nos {
-
     padding: 10%;
     margin: 5%;
     background-color: white;
@@ -100,9 +99,11 @@ iframe {
     border-top: 1px black solid;
 
 }
+/* decoraçao do links dos cards*/
 a {
     text-decoration: none;
     color: black;
+    width: 33%;
 }
 
 *,
@@ -110,12 +111,7 @@ a {
 *::after {
   box-sizing: border-box;
 }
-
-.main {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
+/* class principal dos cards*/
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -128,7 +124,7 @@ a {
   display: flex;
   padding: 1rem;
 }
-
+/* class para poder ajustar a img dentro dos cards*/
 .card_image {
   position: relative;
   max-height: 250px;
@@ -167,7 +163,7 @@ a {
   flex-direction: column;
   overflow: hidden;
 }
-
+/* traço no card de mmv*/
 .card_content {
   position: relative;
   padding: 16px 12px 32px 24px;
@@ -175,21 +171,21 @@ a {
   max-height: 290px;
   overflow-y: scroll;
 }
-
+/* class para poder ajustar o tamnho da srcollbar*/
 .card_content::-webkit-scrollbar {
   width: 8px;
 }
-
+/* class para tirar a borda e shadow da srcollbar*/
 .card_content::-webkit-scrollbar-track {
   box-shadow: 0;
   border-radius: 0;
 }
-
+/* class para estilizar a srcollbar*/
 .card_content::-webkit-scrollbar-thumb {
   background: #063e8d;
   border-radius: 15px;
 }
-
+/* class para poder ajusatr o titulo dentro dos cards*/
 .card_title {
   position: relative;
   margin: 0 0 24px;
@@ -198,7 +194,7 @@ a {
   font-size: 20px;
   font-weight: 700;
 }
-
+/* class para o titulo nao descer junto com o movimento de srolling*/
 .card_title::after {
   position: absolute;
   display: block;
@@ -232,4 +228,20 @@ hr {
     -webkit-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
     -moz-box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
     box-shadow: 100px 100px 3000px 2000px rgba(0,0,0,0.4);
+}
+
+#tex2 {
+  margin: auto;
+  text-align: center;
+
+}
+/* traço no card de mmbros*/
+.card-item {
+  border: #063e8d solid 1px;
+  width: 40%;
+  margin: auto;
+}
+
+#shiu {
+  color: white;
 }

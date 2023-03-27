@@ -7,10 +7,15 @@
 </head>
 
 <body>
+    <!--iframe para linkar o hearder -->
     <iframe src="../../layouts/header.html" width="100%" frameborder="0"></iframe>
     <main>
+        <!--Div para poder separar o titulo do 1° article-->
         <div id="div1">
+
             <h1 class="tit">Sobre nós</h1>
+            <div class="card-item"></div>
+            <!-- 1° article com o conteudo do "sobre nos"-->
             <article id="arc1">
                 <section id="sobrenos">
                     <p id="sobre">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, sunt. Dolorem,
@@ -18,20 +23,25 @@
                         deserunt, accusamus saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
                         possimus quos doloremque. Quasi exercitationem vitae temporibus explicabo possimus eum iste,
                         quaerat incidunt et in a, fugiat voluptate nam blanditiis tenetur?</p>
-                    <img id="img1" src="images/Nos.jpeg" width="200" height="200" alt="">
                 </section>
             </article>
         </div>
+        <!--2° article com o conteudo de missão, visão e valores da equipe-->
         <div id="div2">
             <article id="arc2">
+                <!--ul e li para poder adicionar no css scroll nos cards-->
                 <ul class="cards">
                     <li class="cards_item">
                         <div class="card">
+                            <!--Div para poder separa a img do texto no card mvv-->
                             <div class="card_image">
                                 <img src="images/missão.jpeg" alt="missao" />
                             </div>
+                            <!--Div para poder separar o conteudo escrito da img-->
                             <div class="card_content">
+                                <!--titulo do conteudo do card-->
                                 <h2 class="card_title">Missão</h2>
+                                <!--Conteudo do card-->
                                 <div class="card_text">
                                     <p>Dig into the freshest veggies of the season! This salad-in-a-jar features a
                                         mixture of
@@ -109,10 +119,13 @@
                 </ul>
             </article>
         </div>
+        <!--3° article com o conteudo do "membros da equipe" -->
         <div class="div3">
-            <h1 class="tit">aaaa</h1>
+            <h1 class="tit">Membros da Ômega News</h1>
+            <!--Div para poder colocar um risco embaixo do h1-->
+            <div class="card-item"></div>
             <article id="arc3">
-
+                <!--"a href" para poder linkar todo o card e seu conteudo com a sua pag respectiva-->
                 <a href="../camila/camila.html">
                     <section id="nos">
                         <img class="no" src="images/Cami.jpeg" width="64" height="64" alt="">
@@ -162,15 +175,14 @@
                             libero
                             molestias
                             quae natus, blanditiis qui. Hic ducimus ad voluptatum et, animi, fugiat voluptas a, quaerat
-                            illum sit nulla.</p>
+                            illum sit nullas.</p>
                     </section>
                 </a>
                 <a href="../../index.html">
                     <section id="nos">
-                        <img class="no" src="images/" width="64" height="64" alt="">
-                        <p id="tex1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, saepe! Ullam
-                            libero
-                            molestias
+                        <img class="no" src="../../assets/imagens/curva-de-seta-apontando-para-a-esquerda.png" width="64" height="64" alt="">
+                        <p id="tex2">Voltar</p>
+                        <p id="shiu"> molestias
                             quae natus, blanditiis qui. Hic ducimus ad voluptatum et, animi, fugiat voluptas a, quaerat
                             illum sit nulla.</p>
                     </section>
@@ -179,6 +191,7 @@
         </div>
 
     </main>
+    <!--iframe para poder linkar o footer na pag-->
     <iframe src="../../layouts/footer.html" width="100%" frameborder="0"></iframe>
 
 </body>

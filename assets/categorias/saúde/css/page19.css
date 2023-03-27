@@ -173,10 +173,11 @@ html {
   }
   
   #your_comment {
-    width: 30.8%;
+    width: 29.9%;
   }
   
   #comments {
     font-size:x-large;
     margin-top: 4%;
+    margin-left: -90%;
   }

@@ -172,3 +172,11 @@ html {
   #sla {
 margin-left: 5%;
   }
+  
+  .iframe1 {
+    margin-bottom: -5px;
+    bottom: 0%;
+}
+*{
+    margin: 0;
+}

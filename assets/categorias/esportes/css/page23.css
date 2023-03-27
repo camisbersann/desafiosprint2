@@ -57,6 +57,7 @@ aside {
     padding:2%;
     margin: 1%;
     text-align: center;
+    margin-top: 1%;
 }
 
 h1{
@@ -83,6 +84,7 @@ h1{
     width: 80%;
     margin-left: 9%;
     margin-bottom: 5px solid black;
+    margin-bottom: 2%;
 }
 
 #p1{
@@ -172,7 +174,12 @@ iframe{
 }
 #imgg4{
     border-radius: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .h11{
     font-size: 25px;
+}
+#card2{
+    margin-top: 1%;
 }

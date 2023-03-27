@@ -103,3 +103,75 @@ body {
     width: 50%;
 }
 
+#div{
+    margin-bottom: 0;
+}
+#art7 {
+    background-color: none;
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.sec7 {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    margin: 1%;
+    padding: 2%;
+    width: 33%;
+    margin-bottom: 0;
+}
+
+.icon_profile {
+    border-radius: 100%;
+}
+
+.content_comment_card {
+
+}
+.nickname {
+    margin-left: 5%;
+    margin-top: 5%;
+    border-bottom: 2px solid #063e8d;
+}
+
+.comment_info {
+    display: flex;
+    margin-top: 10%;
+}
+
+.title_name {
+    color: #999;
+}
+
+.comment_card {
+
+}
+
+.content_comment_card p::after {
+	content: "\201D";
+	display: inline;
+	color: #999;
+}
+
+.content_comment_card p::before {
+	content: "\201C";
+	display: inline;
+	color: #999;
+}
+
+#div5 form {
+    margin-left: 4%;
+   flex-direction: column;
+   display: flex;
+}
+
+#your_comment {
+    width: 30.8%;
+}
+
+#comments {
+    font-size:x-large;
+}

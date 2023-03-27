@@ -245,3 +245,11 @@ hr {
 #shiu {
   color: white;
 }
+#iframe2{
+  bottom: 0%;
+  margin-bottom: -5px;
+}
+
+*{
+  margin: 0;
+}

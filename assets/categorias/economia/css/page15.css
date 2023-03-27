@@ -143,7 +143,25 @@ body {
 
 .sec4 {
     background-color: aquamarine;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     margin: 1%;
     padding: 2%;
     width: 33%;
 }
+
+.icon_profile {
+    border-radius: 100%;
+}
+
+.comment_card {
+    display: flex;
+}
+
+.content_comment_card {
+    margin: 10%;
+}
+.title_comment {
+    margin-bottom: 30%;
+}
+
+

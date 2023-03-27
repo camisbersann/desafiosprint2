@@ -35,6 +35,7 @@ body {
     padding: 2%;
     margin: 1%;
     background-color: white;
+    border-left: #063e8d solid 10px;
     border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -78,6 +79,7 @@ body {
     margin: 1%; background-color: white;
     border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    border-left: #063e8d solid 10px;
     display: flex;
     overflow: hidden;
     margin-top: 6%;
@@ -189,5 +191,19 @@ body {
 	content: "\201C";
 	display: inline;
 	color: #999;
+}
+
+#div5 form {
+    margin-left: 4%;
+   flex-direction: column;
+   display: flex;
+}
+
+#your_comment {
+    width: 30.8%;
+}
+
+#comments {
+    font-size:x-large;
 }
 

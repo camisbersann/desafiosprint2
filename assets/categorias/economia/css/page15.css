@@ -132,3 +132,18 @@ body {
   border-radius: 2%;
 }
 
+#div{
+}
+#art4 {
+    background-color: aqua;
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+}
+
+.sec4 {
+    background-color: aquamarine;
+    margin: 1%;
+    padding: 2%;
+    width: 33%;
+}

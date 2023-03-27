@@ -1,12 +1,16 @@
+/*Estilização do body*/
 body {
     background-color: rgb(220, 220, 220);
 }
+
+/*Estilização do título*/
 #titulo {
     color: black;
     text-align: center;
+    background-color: #c6d0de;
 }
 
-
+/*Estilização dos blocos*/
 #bloco1 {   background-color: #c6d0de;
     border: 1px black solid;
     -webkit-box-shadow: 6px 3px 12px 4px rgba(0, 0, 0, 0.53);
@@ -16,6 +20,9 @@ body {
     border-radius: 10px;
     padding:2%;
     margin: 1%;
+    margin-left: 107px;
+    margin-right: 107px;
+    margin-bottom: 2%;
 }
 #bloco2 { 
     width: 65%;
@@ -30,16 +37,20 @@ body {
     margin: 1%;
 
 }
-.lado {
-    display: flex;
-}
 #bloco3{
     padding:2%;
     margin: 1%
 }
+.lado {
+    display: flex;
+}
+
+/*Estilização do aside*/
 aside {
     width: 35%;
 }
+
+/*Estilização dos blocos*/
 #card3 {
     background-color: #c6d0de;
     border: 1px black solid;
@@ -51,6 +62,21 @@ aside {
     padding:2%;
     margin: 1%
 }
+#card1{
+    margin-left: 107px;
+   
+        display: flex;
+      }
+      
+      img{
+          border-radius: 10px;
+      }
+    
+      p{
+        margin-top: 2%;
+ }
+
+/*Fixação do header e footer*/
 #iframe2{
     bottom: 0%;
     margin-bottom: -5px;
@@ -59,6 +85,8 @@ aside {
 * {
     margin:0;
 }
+
+/*Estilização ul li*/
 ul li{
     list-style:none;
 }
@@ -107,4 +135,17 @@ ul li{
 }
 .item p a{
     color: black;
+}
+
+
+/*Estilização h2*/
+h2{
+    text-align: center;
+    background-color: #c6d0de;
+}
+#ll{
+    margin-bottom: 2%;
+}
+#img1{
+    margin-right: 6%;
 }

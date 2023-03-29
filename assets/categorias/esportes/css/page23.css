@@ -99,8 +99,9 @@ h1{
 
 /*Estilização do p1*/
 #p1{
-    margin-top: 4%;
+    margin-top: 6%;
     margin-left: -9%;
+    font-size: 20px;
 }
 
 /*Estilização das img*/
@@ -132,6 +133,7 @@ img {
 #div5 {
     background-color: #c6d0de;
     text-align: center;
+    margin-top: 2%;
 }
 #div6 {
     background-color: rgb(253, 199, 208);
@@ -198,7 +200,7 @@ iframe{
     padding: 2%;
     display: flex;
     margin-bottom: 0;
-    
+    margin-top: 5%;
 }
 
 .sec4 {
@@ -209,7 +211,6 @@ iframe{
     padding: 2%;
     width: 33%;
     margin-bottom: 0;
-    display: flex;
 }
 
 .icon_profile {
@@ -234,10 +235,6 @@ iframe{
     color: #999;
 }
 
-.comment_card {
-
-}
-
 .content_comment_card p::after {
 	content: "\201D";
 	display: inline;
@@ -250,17 +247,20 @@ iframe{
 	color: #999;
 }
 
-#div5 form {
+#div7 form {
     margin-left: 4%;
-   flex-direction: column;
+    flex-direction: column;
    display: flex;
 }
 
 #your_comment {
-    width: 30.8%;
+    width: 200%;
 }
 
 #comments {
     font-size:x-large;
     margin-top: 4%;
+}
+.p{
+    font-size: 20px;
 }

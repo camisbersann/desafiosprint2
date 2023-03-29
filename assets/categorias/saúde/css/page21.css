@@ -108,7 +108,7 @@ p{
     margin-left: 11%;
 }
 
-#div5 {
+#div0 {
     background-color: #c6d0de;
     text-align: center;
 }
@@ -166,6 +166,8 @@ img {
     display: flex;
     margin-bottom: 0;
     text-align: none;
+    margin-top: 5%;
+    margin-left: -15%;
   }
   
   .sec4 {
@@ -223,10 +225,15 @@ img {
   }
   
   #your_comment {
-    width: 30.8%;
+    width: 245%;
   }
   
   #comments {
     font-size:x-large;
     margin-top: 4%;
+  }
+
+  #divj {
+    text-align: center;
+    background-color: #c6d0de;
   }

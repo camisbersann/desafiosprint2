@@ -1,5 +1,7 @@
 body {
     background-color: #dfdfdf;
+    font-size: 20px;
+    text-align: justify;
 }
 
 #div0 {
@@ -179,4 +181,8 @@ margin-left: 5%;
 }
 *{
     margin: 0;
+}
+
+.sla {
+
 }

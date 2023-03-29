@@ -63,6 +63,7 @@ aside {
 h1{
     text-align: center;
     margin: 5px;
+    margin-left: -13%;
 }
 
 #card1{
@@ -97,10 +98,12 @@ p{
 
 #p1{
     margin-top: 4%;
+    margin-left: -8%;
+    margin-bottom: -1%;
 }
 
 #img4 {
-    margin-top: 2%;
+    margin-top: 1%;
     margin-left: 10px;
 }
 
@@ -118,8 +121,8 @@ p{
 }
 
 #img00 {
-    margin-bottom: -18px;
-    margin-top: 10px;
+    margin-bottom: -19px;
+    margin-top: 2%;
 }
 
 #div6 {
@@ -250,6 +253,20 @@ img {
     margin-left: 28%;
     margin-top: 5%;
     margin-bottom: -3%;
+}
+
+.martins {
+    margin-left: 2px;
+}
+
+#leite {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+#pp1 {
+    margin-left: 1%;
+    margin-top: 3%;
 }
 
   

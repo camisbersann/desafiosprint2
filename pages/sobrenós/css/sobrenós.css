@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(220, 220, 220)
+    background-color: rgb(220, 220, 220);
+    text-align: justify;
+    font-size: 20px;
 }
 /* estilizaçao da div*/
 #div1 {
@@ -138,7 +140,7 @@ a {
 
 
 .card_price span {
-  font-size: 12px;
+  font-size: 20px;
   margin-top: -2px;
 }
 
@@ -215,7 +217,7 @@ hr {
 
 .card_text p {
   margin: 0 0 24px;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.5;
 }
 

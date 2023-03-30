@@ -106,7 +106,7 @@ body {
 #div{
     margin-bottom: 0;
 }
-#art7 {
+#art4 {
     background-color: none;
     margin: 1%;
     padding: 2%;
@@ -114,7 +114,7 @@ body {
     margin-bottom: 0;
 }
 
-.sec7 {
+.sec4 {
     background-color: white;
     border-radius: 0.25rem;
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
@@ -174,4 +174,12 @@ body {
 
 #comments {
     font-size:x-large;
+}
+
+.iframe1 {
+    margin-bottom: -5px;
+    bottom: 0%;
+}
+*{
+    margin: 0;
 }

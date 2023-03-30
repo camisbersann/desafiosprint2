@@ -7,18 +7,22 @@
 </head>
 
 <body>
-    <iframe src="../../../layouts/header.html" frameborder="0" width="100%"></iframe>
+    <iframe class="iframe1" src="../../../layouts/header.html" frameborder="0" width="100%"></iframe>
     <main>
+        <!--Responsavel pelo titulo que indica sua categoria-->
         <div id="titulo">
             <h1>Economia</h1>
             <h2>Economia Mundo</h2>
         </div>
-
+        <!--div que separa o corpo do titulo-->
         <div id="sla">
 
+
             <div id="div1">
+                <!--Responsavel pela parte que compoe o componente de escrita do texto-->
                 <article id="arc1">
                     <section id="sec1">
+                        <!--Parte onde contem a escrita do artigo-->
                         <div class="text1">
                             <h2>Cenário da economia ao redor do mundo:</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda minus adipisci debitis
@@ -34,6 +38,7 @@
                                 obcaecati sapiente quam veniam eligendi voluptatibus a ratione minima dolorum laboriosam
                                 illum quos quidem reiciendis. Eaque, eveniet.</p>
                         </div>
+                        <!--parte que contem a img do artigo (grafico), e separa o texto da img-->
                         <div class="img1">
                             <img src="../../../assets/imagens/pib-de-paises.webp" width="256" height="256"
                                 alt="graficp">
@@ -55,8 +60,10 @@
             </div>
 
             <div id="div2">
+                <!--Parte que contem o aside, e separa o artigo principal de algumas curiosdades-->
                 <aside>
                     <article id="arc2">
+                        <!--Parte que se tem o texto do aside-->
                         <section id="sec2">
                             <h2>Curiosidade</h2>
                             <div id="card-item"></div>
@@ -99,16 +106,46 @@
             </div>
 
         </div>
-        <div id="div7">
-
+        <!--Div que representa a divisão da parte dos artigos dos comentarios/-->
+        </div>
+        <div id="div4">
+            <!--Div para separar a parte de digitar o seu comentario e os comentarios-->
             <div id="div5">
-                <form action="./../../feedback/feedback.html">
+                <form action="./../../contato/contato.html">
                     <label id="comments" for=""> Comentarios:</label>
                     <input id="your_comment" type="text" placeholder="Digite seu comentario">
                 </form>
             </div>
-            <article id="art7">
-                <section class="sec7">
+            <!--Parte que é responsavel por conter os comentarios das pessoas-->
+            <article id="art4">
+                <section class="sec4">
+                    <!--Div que separa a parte do conteudo escrito do comentario e o profile da pessoa do comentario-->
+                    <div class="comment_card">
+                        <!--Div que contem o conteudo escrito do comentario-->
+                        <div class="content_comment_card">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi facere saepe eaque
+                                molestias earum eius ex voluptas eligendi ad, totam asperiores cupiditate officiis
+                                vero
+                                sapiente quasi dolorum aperiam nostrum corporis!</p>
+                        </div>
+                        <!--Div que contem as informaçoes para indicar quem foi a pessoa que comentou-->
+                        <div class="comment_info">
+                            <div>
+                                <!--Div que contem a foto de perfil de quem comentou, alem de servir para organizar melhor o nickname da foto de perfil-->
+                                <img class="icon_profile"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPpCuBVxNGbkrc1O_uPvUuLMSIeccPSCP6sbpHItoj7Q&s"
+                                    width="64" height="64" alt="">
+                            </div>
+                            <!--Div localizada pelo nickname e o sub titulo do perfil-->
+                            <div class="nickname">
+                                <h3>Arthuzin_d0_Vraul</h3>
+                                <h4 class="title_name">Um cara qualquer</h4>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="sec4">
                     <div class="comment_card">
                         <div class="content_comment_card">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi facere saepe eaque
@@ -131,30 +168,7 @@
                     </div>
                 </section>
 
-                <section class="sec7">
-                    <div class="comment_card">
-                        <div class="content_comment_card">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi facere saepe eaque
-                                molestias earum eius ex voluptas eligendi ad, totam asperiores cupiditate officiis
-                                vero
-                                sapiente quasi dolorum aperiam nostrum corporis!</p>
-                        </div>
-
-                        <div class="comment_info">
-                            <div>
-                                <img class="icon_profile"
-                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPpCuBVxNGbkrc1O_uPvUuLMSIeccPSCP6sbpHItoj7Q&s"
-                                    width="64" height="64" alt="">
-                            </div>
-                            <div class="nickname">
-                                <h3>Arthuzin_d0_Vraul</h3>
-                                <h4 class="title_name">Um cara qualquer</h4>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="sec7">
+                <section class="sec4">
                     <div class="comment_card">
                         <div class="content_comment_card">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi facere saepe eaque
@@ -181,7 +195,7 @@
             </article>
         </div>
     </main>
-    <iframe src="../../../layouts/footer.html" frameborder="0" width="100%"></iframe>
+    <iframe class="iframe1" src="../../../layouts/footer.html" frameborder="0" width="100%"></iframe>
 
 </body>
 

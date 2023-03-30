@@ -1,5 +1,8 @@
+/*Parte que incorpora o html*/
 body {
     background-color: rgb(220, 220, 220);
+    text-align: justify;
+    font-size: 20px;
 }
 * {
     margin: 0;
@@ -9,6 +12,7 @@ body {
 }
 
 
+/*Parte que contem o titulo*/
 #titulo {
     color: black;
     text-align: center;
@@ -18,7 +22,7 @@ body {
 #sla {
     display: flex;
 }
-
+/*estilizaçao do primeiro article*/
 #div1 {
     display: flex;
     width: 70%;
@@ -45,7 +49,7 @@ body {
 .img1 {
     text-align: end;
 }
-
+/*estilizaçao do segundo article*/
 #div2 {
     width: 30%;
 }
@@ -71,7 +75,7 @@ body {
     border-left: #063e8d solid 10px;
     border-radius: 10px;
 }
-
+/*estilizaçao do terceiro article*/
 #sec3 {
     padding: 2%;
     margin: 1%; background-color: white;
@@ -106,6 +110,7 @@ body {
 #div{
     margin-bottom: 0;
 }
+/*estilizaçao dos comentarios*/
 #art4 {
     background-color: none;
     margin: 1%;
@@ -149,7 +154,7 @@ body {
 .comment_card {
 
 }
-
+/*estilizaçao dos ""*/
 .content_comment_card p::after {
 	content: "\201D";
 	display: inline;
@@ -175,7 +180,7 @@ body {
 #comments {
     font-size:x-large;
 }
-
+/*estilizaçao do header e do footer*/
 .iframe1 {
     margin-bottom: -5px;
     bottom: 0%;
@@ -183,3 +188,5 @@ body {
 *{
     margin: 0;
 }
+p {
+    margin: 5%;}

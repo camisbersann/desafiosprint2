@@ -1,3 +1,4 @@
+/*Parte que incorpora o html*/
 body {
     background-color: rgb(220, 220, 220);
     text-align: justify;
@@ -247,6 +248,7 @@ hr {
 #shiu {
   color: white;
 }
+/*estilizaçao do header e do footer*/
 #iframe2{
   bottom: 0%;
   margin-bottom: -5px;

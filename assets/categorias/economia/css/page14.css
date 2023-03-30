@@ -1,3 +1,4 @@
+/*Parte que incorpora o html*/
 body {
     background-color: #dfdfdf;
     font-size: 20px;
@@ -7,7 +8,7 @@ body {
 #div0 {
     text-align: center;
 }
-
+/*estilizaçao do primeiro article*/
 #card-item {
     background-color: #063e8d;
     border: #063e8d solid 1px;
@@ -19,6 +20,7 @@ body {
 #div{
     margin-bottom: 0;
 }
+/*estilizaçao dos comentarios*/
 #art4 {
     background-color: none;
     margin: 1%;
@@ -62,6 +64,7 @@ body {
 .comment_card {
 
 }
+/*estilizaçao dos ""*/
 
 .content_comment_card p::after {
 	content: "\201D";
@@ -174,7 +177,7 @@ html {
   #sla {
 margin-left: 5%;
   }
-  
+  /*estilizaçao do header e do footer*/
   .iframe1 {
     margin-bottom: -5px;
     bottom: 0%;

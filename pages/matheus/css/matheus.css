@@ -1,8 +1,9 @@
 /*Estilização da section*/
 #s1 {
     display: flex;
-    text-align: justify;
+
     background-color: #c6d0de;
+
 }
 section  {
 
@@ -25,6 +26,8 @@ section  {
 /*Estilização do body*/
 body {
     background-color: rgb(220, 220, 220);
+    font-size: 20px;
+    text-align: justify;
 }
 
 /*Estilização do h1*/
@@ -57,3 +60,11 @@ h1{
  *{
     margin: 0;
  }
+
+ .iframe1 {
+    margin-bottom: -5px;
+    bottom: 0%;
+}
+
+p {
+    margin: 3%;}

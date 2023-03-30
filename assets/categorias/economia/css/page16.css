@@ -1,5 +1,7 @@
 body {
 background-color: rgb(220, 220, 220);
+font-size: 20px;
+text-align: justify;
 }
 #titulo {
     color: rgb(0, 0, 0);
@@ -198,3 +200,5 @@ p{
 *{
     margin: 0;
 }
+p {
+    margin: 5%;}

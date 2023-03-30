@@ -1,8 +1,10 @@
+/*Parte que incorpora o html*/
 body {
 background-color: rgb(220, 220, 220);
 font-size: 20px;
 text-align: justify;
 }
+/*Parte que contem o titulo*/
 #titulo {
     color: rgb(0, 0, 0);
     text-align: center;
@@ -10,7 +12,7 @@ text-align: justify;
     margin-top: 1%;
 }
 
-
+/*estilizaçao do primeiro article*/
 #bloco1 {   background-color: #c6d0de;
     border-left: #063e8d solid 10px;
     border-radius: 0.25rem;
@@ -20,6 +22,7 @@ text-align: justify;
     width: 60%;
     margin-left: 18%;
 }
+/*estilizaçao do segundo article*/
 #bloco2 { 
     width: 65%;
       background-color: #c6d0de;
@@ -33,10 +36,12 @@ text-align: justify;
 .lado {
     display: flex;
 }
+/*estilizaçao do terceiro article*/
 #bloco3{
     padding:2%;
     margin: 1%
 }
+/*estilizaçao do aside*/
 aside {
     width: 35%;
 }
@@ -48,7 +53,7 @@ aside {
     padding:2%;
     margin: 1%
 }
-
+/*estilizaçao dos titulos*/
 h1{
     text-align: center;
     margin: 5px;
@@ -57,11 +62,11 @@ h1{
 #card1{
   display: flex;
 }
-
+/*estilizaçao das imgs*/
 img{
     border-radius: 10px;
 }
-
+/*estilizaçao do header e do footer*/
 #iframe{
     bottom: 0%;
     margin-bottom: -5px;
@@ -71,7 +76,7 @@ img{
 p{
     margin-top: 10px;
 }
-
+/*estilizaçao dos comentarios*/
 #div4{
     margin-top: 3%;
     border-top: 1px solid black;
@@ -103,6 +108,7 @@ p{
     text-align: center;
     margin-top: 2%;
 }
+/*estilizaçao dos componentes do titulo*/
 
 #card-item {
     border: #063e8d 2px solid;
@@ -163,7 +169,7 @@ p{
 .comment_card {
 
 }
-
+/*estilizaçao dos ""*/
 .content_comment_card p::after {
 	content: "\201D";
 	display: inline;
@@ -193,6 +199,7 @@ p{
 #div5 {
     margin-top: 5%;
 }
+/*estilizaçao do header e do footer*/
 .iframe1 {
     margin-bottom: -5px;
     bottom: 0%;

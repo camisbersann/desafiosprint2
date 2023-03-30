@@ -73,6 +73,7 @@ h2{
     padding:2%;
     margin: 1%;
     text-align: center;
+    width: 33%;
 }
 #div2{
     display: flex;
@@ -81,6 +82,7 @@ h2{
 }
 #div3{
     display: flex;
+ 
 }
 #div4{
     display: flex;

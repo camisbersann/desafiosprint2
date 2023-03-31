@@ -1,6 +1,7 @@
 /*responsavel pela cor de fundo*/
 body {
     background-color: rgb(223, 223, 223);
+    
 }
 
 #titulo {
@@ -109,7 +110,6 @@ p{
 }
 
 #div5 {
-    background-color: #c6d0de;
     text-align: center;
 }
 
@@ -237,4 +237,8 @@ img {
 #comments {
     font-size:x-large;
     margin-top: 4%;
+}
+
+p {
+    font-size: 20px;
 }
